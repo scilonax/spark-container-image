@@ -1,9 +1,9 @@
-wget https://downloads.apache.org/spark/spark-3.0.1/spark-3.0.1-bin-hadoop3.2.tgz
-tar xvfz spark-3.0.1-bin-hadoop3.2.tgz
+wget https://downloads.apache.org/spark/spark-3.0.2/spark-3.0.2-bin-hadoop3.2.tgz
+tar xvfz spark-3.0.2-bin-hadoop3.2.tgz
 
-export SPARK_HOME=spark-3.0.1-bin-hadoop3.2
+export SPARK_HOME=spark-3.0.2-bin-hadoop3.2
 export SPARK_DOCKER_IMAGE=rbsilva/spark
-export SPARK_DOCKER_TAG=3.0.1-cuda11
+export SPARK_DOCKER_TAG=3.0.2-cuda11
 
 pushd ${SPARK_HOME}
 cp ../Dockerfile ./Dockerfile
